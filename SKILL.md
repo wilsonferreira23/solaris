@@ -1,9 +1,21 @@
 ---
 name: solaris
-description: Orchestrate fast multi-agent software delivery in Codex. Use for substantial coding projects where a strong root agent should plan, delegate large independent missions to Luna workers, integrate their work, run deterministic gates, and escalate difficult uncertainty to Astra without micro-tasking the project.
+description: Explicit-only Codex orchestration skill. Use this skill only when the user explicitly invokes `$solaris` or explicitly asks to use the Solaris skill by name. Do not activate Solaris implicitly from task similarity. When explicitly invoked, orchestrate substantial coding work with Sol planning and verifying, Luna implementing large independent missions, Astra handling high-uncertainty diagnosis, and deterministic gates deciding completion.
 ---
 
 # Solaris
+
+## Activation rule
+
+**Solaris is explicit-only.**
+
+Use this skill only when either:
+- the user explicitly invokes `$solaris`, or
+- the user explicitly asks to use the Solaris skill by name.
+
+Do **not** activate Solaris implicitly because a task looks like a large coding project, multi-agent workflow, orchestration problem, or anything else that merely matches this skill's capabilities.
+
+If the user does not explicitly request Solaris, ignore this skill.
 
 Solaris is a delivery orchestrator for substantial Codex software work.
 
