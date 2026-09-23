@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "goal": "Ship the requested product outcome",
+  "global_gates": [
+    "<build>",
+    "<typecheck>",
+    "<test>"
+  ],
+  "missions": [
+    {
+      "id": "M1",
+      "title": "Example vertical slice",
+      "outcome": "A complete independently valuable product capability works end-to-end.",
+      "status": "pending",
+      "depends_on": [],
+      "write_scope": [
+        "src/example/**",
+        "tests/example/**"
+      ],
+      "acceptance": [
+        "Observable behavior works",
+        "Targeted tests pass"
+      ],
+      "targeted_gates": [
+        "<targeted command>"
+      ],
+      "risk": "normal",
+      "worker_effort": "high"
+    }
+  ]
+}
