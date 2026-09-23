@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solaris"
+  short_description: "Orchestrate fast Sol/Luna/Astra coding delivery"
+  default_prompt: "Use $solaris to build this project with large Luna missions, minimal handoffs, deterministic gates, and adaptive Astra escalation."
